@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import { BsFillPatchCheckFill as BsFillPatchCheckFill } from 'react-icons/bs'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 const experience = () => {
   return (
@@ -26,14 +26,14 @@ const experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className="experience_content">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className="experience_content">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>React</h4>
@@ -53,14 +53,14 @@ const experience = () => {
                 <small className='text-light'>Beginner</small>
               </div>
             </article>
-            <article className="experience_content">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Node JS</h4>
                 <small className='text-light'>Beginner</small>
               </div>
             </article>
-            <article className="experience_content">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Python</h4>
