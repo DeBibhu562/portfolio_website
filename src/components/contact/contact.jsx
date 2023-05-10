@@ -16,7 +16,7 @@ const Contact = () => {
     };
 
 return (
-  <section id='Contact'>
+  <section id='contact'>
     <h5>Get In Touch</h5>
     <h2>Contact Me</h2>
     <div className="container contact__container">
@@ -37,7 +37,7 @@ return (
       <BsWhatsapp className='contact_option-icon'/>
       <h4>Whatsapp</h4>
       <h5>+918918841797</h5>
-      <a href="https://api.whatsapp.com/send?phone+918918841797" target="_blank">Send a massage</a>
+      <a href="https://wa.me/918918841797" target="_blank">Send a massage</a>
       </article>
     </div>
     {/* END OF CONTACT OPTIONS */}

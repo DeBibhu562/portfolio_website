@@ -40,6 +40,7 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    align-items: center;
     transition: var(--transition);
 }
 .about__cards:hover{
@@ -74,7 +75,9 @@ color: var(-color-light);
         grid-template-columns: 1fr;
         gap: 0;
     }
-
+    .about__card{
+        align-items: center;
+    }
     .about__me{
         width: 50%;
         margin: 2rem auto 4rem;
